@@ -12,7 +12,7 @@ Projeto de um ERP de Gestão de Negócios com PHP
 [Composer](https://getcomposer.org/)
 
 - dependências;
-    - [Data](https://getbootstrap.com/)
+    - [Data](https://packagist.org/packages/nesbot/carbon)
 
-    - [CEP](https://getbootstrap.com/)
+    - [CEP](https://packagist.org/packages/flyingluscas/correios-php)
 
