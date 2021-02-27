@@ -5,8 +5,8 @@
     
   //Funções das classes
   $autoload = function($class) {
-    if($class == 'MySql') {
-		  include('classes/MySql.php');
+    if($class == 'Email') {
+		  include('classes/Email.php');
 	}
     include('classes/'.$class.'.php');
   };
