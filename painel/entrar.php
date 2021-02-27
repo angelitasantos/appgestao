@@ -16,6 +16,7 @@ Usuario::rememberAccess($usuario, $senha);
     <script src="https://kit.fontawesome.com/f7cb610b49.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo INCLUDE_PATH_PAINEL ?>assets/css/styles.css">
     <link rel="stylesheet" href="<?php echo INCLUDE_PATH_PAINEL ?>assets/css/responsive.css">
 </head>
@@ -100,6 +101,9 @@ Usuario::rememberAccess($usuario, $senha);
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="<?php echo INCLUDE_PATH; ?>assets/js/jquery.js"></script>
+    <script src="<?php echo INCLUDE_PATH; ?>assets/js/bootstrap.min.js"></script>
+    <script src="<?php echo INCLUDE_PATH; ?>assets/js/constants.js"></script>
     <script type="text/javascript" src="<?php echo INCLUDE_PATH_PAINEL; ?>assets/js/scripts.js"></script>
 
 </body>

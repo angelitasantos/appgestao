@@ -1,1 +1,123 @@
 /* ----------------------- Styles -------------------------- */
+
+
+/* --------------------- Painel --------------------- */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+html,body {
+	height: 100%;
+	background: rgb(225,225,225);
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.box-content {
+	background: white;
+	padding: 30px;
+	margin-bottom: 25px;
+}
+
+.box-content h2 {
+	font-weight: 300;
+	font-size: 23px;
+}
+
+
+.box-content a {
+	color:black;
+}
+
+
+/* --------------------- Entrar --------------------- */
+
+.box-login {
+	box-shadow: 10px 10px 5px rgb(200,200,200);
+	max-width: 600px;
+	width: 95%;
+	padding: 60px 2%;
+	background: white;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+}
+
+.box-login h2 {
+	text-align: center;
+	font-size: 19px;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin:10px 0;
+	color: black;
+}
+
+
+/* --------------------- Tabelas --------------------- */
+
+table a.btn {
+	font-weight: normal;
+	font-size: 13px;
+	color: white;
+	text-decoration: none;
+	padding: 4px 6px;
+}
+
+a.btn {
+	font-weight: normal;
+	font-size: 13px;
+	color: white;
+	text-decoration: none;
+	padding: 4px 6px;
+}
+
+a.btn.edit {
+	background: #F4B03E;
+}
+
+a.btn.delete {
+	background: #E05C4E;
+}
+
+a.btn.order {
+	background: #0091ea;
+}
+
+
+/* --------------------- Paginação --------------------- */
+
+.paginacao {
+	margin:20px 0;
+	text-align: center;
+}
+
+.paginacao a {
+	font-size: 14px;
+	margin:0 8px;
+	display: inline-block;
+	padding: 3px 4px;
+	border: 1px solid #ccc;
+	text-decoration: none;
+	color: #666;
+}
+
+.paginacao a.page-selected {
+	background: rgb(220,220,220);
+}
+
