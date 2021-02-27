@@ -11,7 +11,6 @@
 	$downloadController = new controller\downloadController();
 	$podcastController = new controller\podcastController();
 	$clienteController = new controller\clienteController();
-	$empreendimentoController = new controller\empreendimentoController();
 
 	Router::get('/',function() use ($homeController) {
 		$homeController->index();
@@ -45,12 +44,5 @@
 		$clienteController->index();
 	});
 
-	Router::get('/?',function($params) use ($empreendimentoController) {
-		$empreendimentoController->index($params);
-	});
-
-	Router::get('/?/?',function($params) use ($empreendimentoController) {
-		$empreendimentoController->index($params);
-	});
 	
 ?>
