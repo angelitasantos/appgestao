@@ -17,7 +17,7 @@ $infoSite = $infoSite->fetch();
 
     <script src="https://kit.fontawesome.com/f7cb610b49.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>assets/css/styles.css">
     <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>assets/css/responsive.css">
 </head>
