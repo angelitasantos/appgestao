@@ -1,1 +1,44 @@
 /* ----------------------- Design Responsive -------------------------- */
+
+
+
+@media screen and (max-width: 1024px) {
+
+	
+}
+
+
+@media screen and (max-width: 768px) {
+
+	.content {
+		width: 100%;
+		left: 0;
+	}
+
+	header {
+		left: 0;
+		width: 100%;
+	}
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+	
+}
+
+
+@media screen and (max-width: 400px) {
+
+	.box-content {
+		padding: 8px 2%;
+	}
+
+}
+
+
+@media screen and (max-width: 380px){
+
+
+}

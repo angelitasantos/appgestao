@@ -19,6 +19,200 @@ body {
 	overflow-x: hidden;
 }
 
+.card-title {
+	width: 100%;
+	padding:6px;
+	color: white;
+	margin:10px 0;
+	font-size: 17px;
+	font-weight: lighter;
+	background: #0091ea;
+}
+
+.gerar-pdf {
+	display: block;
+	margin:8px 0;
+}
+.gerar-pdf a {
+	color: white !important;
+	padding: 3px 8px;
+	background: #E05C4E;
+	text-decoration: none;
+}
+
+
+
+
+/* --------------------- Erro / Sucesso --------------------- */
+
+.erro-box {
+	width: 100%;
+	padding: 8px 2%;
+	text-align: center;
+	background: #F75353;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 15px
+}
+
+.sucesso-box {
+	width: 100%;
+	padding: 8px 2%;
+	text-align: center;
+	background: #09c50f;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+
+/* --------------------- Header --------------------- */
+
+.clear {
+	clear:both;
+}
+
+.center {
+	padding:0 2%;
+	margin:0 auto;
+}
+
+.loggout {
+	float: right;
+}
+
+.loggout a {
+	padding: 0 20px;
+	position: relative;
+	top: 4px;
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+
+.loggout a > span {
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.menu-btn {
+	float: left;
+	cursor: pointer;
+	font-size: 23px;
+	color: white;
+}
+
+.menu-wraper {
+	width:250px;
+}
+
+div.menu {
+	overflow-x:hidden;
+	overflow-y: auto;
+	height: 100%;
+	padding:10px 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: #455a64;
+	float: left;
+	width: 250px;
+}
+
+header {
+	position: relative;
+	left: 250px;
+	padding: 10px 0;
+	background: #78909c; 
+	width: calc(100% - 250px);
+}
+
+.content {
+	width: calc(100% - 250px);
+	position: relative;
+	left: 250px;
+	padding: 2%;
+}
+
+.items-menu {
+	margin-top: 30px;
+}
+
+.items-menu h2 {
+	text-align: left;
+	font-weight: normal;
+	font-size: 17px;
+	background: #02360f;
+	color: white;
+	padding:8px;
+}
+
+.items-menu a {
+	display: block;
+	padding: 8px;
+	font-weight: 300;
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+	border-bottom: 2px solid #2F3D42;
+}
+
+div.box-usuario {
+	padding: 8px;
+	text-align: center;
+}
+
+.avatar-usuario {
+	text-align: left;
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 3px solid #2F3D42;
+}
+
+.avatar-usuario i {
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	font-size: 50px;
+	color: #2F3D42;
+}
+
+.imagem-usuario {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	position: relative;
+	border-radius: 50%;
+	border: 3px solid #2F3D42;
+}
+
+.imagem-usuario img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.nome-usuario {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.nome-usuario h6 {
+	color: white;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+
+/* --------------------- Conteúdo --------------------- */
+
 .left {
 	float: left;
 }
@@ -41,31 +235,6 @@ body {
 
 .box-content a {
 	color:black;
-}
-
-
-/* --------------------- Entrar --------------------- */
-
-.box-login {
-	box-shadow: 10px 10px 5px rgb(200,200,200);
-	max-width: 600px;
-	width: 95%;
-	padding: 60px 2%;
-	background: white;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%,-50%);
-	-ms-transform:translate(-50%,-50%);
-}
-
-.box-login h2 {
-	text-align: center;
-	font-size: 19px;
-	text-transform: uppercase;
-	font-weight: normal;
-	margin:10px 0;
-	color: black;
 }
 
 
@@ -121,3 +290,60 @@ a.btn.order {
 	background: rgb(220,220,220);
 }
 
+
+/* --------------------- Alerta --------------------- */
+
+.box-alert {
+	width: 100%;
+	padding:8px 0;
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+.box-alert a {
+	color: white;
+	font-weight: bold;
+}
+
+.sucesso {
+	background: #09c50f;
+	color: white;
+	font-size: 18px;
+}
+
+.erro {
+	background: #F75353;
+	color: white;
+	font-size: 18px;
+}
+
+.atencao {
+	background: #f4a742;
+	color: white;
+	font-size: 18px;
+}
+
+
+/* --------------------- Entrar --------------------- */
+
+.box-login {
+	box-shadow: 10px 10px 5px rgb(200,200,200);
+	max-width: 600px;
+	width: 95%;
+	padding: 60px 2%;
+	background: white;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+}
+
+.box-login h2 {
+	text-align: center;
+	font-size: 19px;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin:10px 0;
+	color: black;
+}
