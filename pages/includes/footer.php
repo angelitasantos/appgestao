@@ -64,6 +64,7 @@ $infoSite = $infoSite->fetch();
 </footer><!-- Contatos -->
 
 <script src="<?php echo INCLUDE_PATH; ?>assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="<?php echo INCLUDE_PATH; ?>assets/js/jquery.min.js"></script>
 <script src="<?php echo INCLUDE_PATH; ?>assets/js/constants.js"></script>
 <script src="<?php echo INCLUDE_PATH; ?>assets/js/scripts.js"></script>
 
