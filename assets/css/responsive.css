@@ -1,1 +1,54 @@
 /* ----------------------- Design Responsive -------------------------- */
+
+
+/* --------------------- Site --------------------- */
+
+@media screen and (max-width: 700px){
+
+	nav.desktop {
+		display: none;
+	}
+
+	nav.mobile {
+		display: block;
+	}
+
+	.botao-menu-mobile {
+		font-size: 24px;
+		cursor: pointer;
+		color: white;
+	}
+
+	nav.mobile ul {
+		z-index: 3;
+		position: absolute;
+		display: none;
+		left: 0;
+		top:56px;
+		width: 100%;
+		text-align: center;
+	}
+
+	nav.mobile li {
+		width: 100%;
+		display: block;
+		background: #006400;
+		border-bottom:1px solid #CCCCCC;
+		font-size: 17px;
+		font-weight: 300;
+		padding: 8px 0;
+	}
+
+	nav.mobile li a {
+		display: block;
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+
+	nav.mobile li a:hover {
+		color: #9ACD32;
+		text-decoration: none;
+		font-weight: 900;
+	}
+
+}
