@@ -19,6 +19,40 @@ body {
 	overflow-x: hidden;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-size: 1.9rem;
+}
+
+h4 {
+    font-size: 1.7rem;
+}
+
+h5 {
+    font-size: 1.4rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+
+p {
+    font-size: 1rem;
+}
+
 .card-title {
 	width: 100%;
 	padding:6px;
