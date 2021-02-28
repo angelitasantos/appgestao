@@ -33,7 +33,7 @@ $usuarioLogado = PHP::selectOne('tb_adm.usuarios', false);
             <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
                 <!-- Sidebar - Brand -->
-                <a class="sidebar-brand" href="">
+                <a class="sidebar-brand" href="<?php echo INCLUDE_PATH_PAINEL ?>">
                     <div class="sidebar-brand-icon">
                         <i class="fas fa-hand-holding-usd"></i>
                     </div>
