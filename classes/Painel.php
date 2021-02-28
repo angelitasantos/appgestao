@@ -24,11 +24,11 @@
 				if(file_exists('pages/'.$url[0].'.php')){
 					include('pages/'.$url[0].'.php');
 				}
-				else if(file_exists('pages/noticias/'.$url[0].'.php')){
-					include('pages/noticias/'.$url[0].'.php');
+				else if(file_exists('users/'.$url[0].'.php')){
+					include('users/'.$url[0].'.php');
 				}
-				else if(file_exists('pages/site/'.$url[0].'.php')){
-					include('pages/site/'.$url[0].'.php');
+				else if(file_exists('site/'.$url[0].'.php')){
+					include('site/'.$url[0].'.php');
 				}
 				else if(file_exists('erp/'.$url[0].'.php')){
 					include('erp/'.$url[0].'.php');
@@ -53,20 +53,6 @@
 				}
 				else if(file_exists('erp/simulador/'.$url[0].'.php')){
 					include('erp/simulador/'.$url[0].'.php');
-				}
-				else{
-					//Sistema de rotas!
-					if(Router::get('visualizar-empreendimento/?',function($par){
-						include('views/visualizar-empreendimento.php');
-					})){
-
-					}else if(Router::post('visualizar-empreendimento/?',function($par){
-						include('views/visualizar-empreendimento.php');
-					})){
-					}else{
-						header('Location: '.INCLUDE_PATH_PAINEL);
-					}
-					
 				}
 			}else{
                 include('pages/home.php');
